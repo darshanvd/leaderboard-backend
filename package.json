@@ -1,0 +1,33 @@
+{
+  "name": "lederboard-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.25",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.18.2",
+    "graphql": "^15.8.0",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^5.0.0",
+    "mongoose": "^8.16.4",
+    "morgan": "^1.10.1",
+    "validator": "^13.15.15",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
