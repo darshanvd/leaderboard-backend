@@ -70,7 +70,7 @@ SESSION_SECRET=your_strong_secret
 
 ### 3. Clone & Setup Project
 ```bash
-git clone <repo-url>
+git clone https://github.com/darshanvd/leaderboard-backend.git
 cd Leaderboard_Backend
 npm install
 ```
