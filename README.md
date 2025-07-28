@@ -74,8 +74,10 @@ git clone https://github.com/darshanvd/leaderboard-backend.git
 cd Leaderboard_Backend
 npm install
 ```
-Set environment variables in `.env` or your process manager (see above).
-
+Set environment variables like DB URL and Password in `.env` or your process manager (see above).
+```bash
+sudo vim /etc/app.env
+```
 ### 4. Install & Configure Caddy For Producation EC2 Instance
 - [Caddy](https://caddyserver.com/) is a modern web server with automatic HTTPS.
 - Install Caddy:
